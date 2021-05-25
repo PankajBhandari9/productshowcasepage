@@ -1,0 +1,222 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+@media screen and (max-width: 1230px) {
+    /* navbar */
+    .aTag{
+        padding: 9px 20px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+    
+    .navbar{
+        margin-left: 90px;
+    }
+    .flx{
+        display: flex;
+        justify-content:center;
+        background-image: linear-gradient(blue,black);
+        padding: 16px;
+    }
+    .icn{
+        position: absolute;
+        top: 0;
+        left: 170px;
+    }
+
+    /* Home style */
+#watchImg1{
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 40px;
+    color:white;
+}
+.watchHeading1{
+    width: 500px;
+    position: absolute;
+    top: 190px;
+    right: 100px;
+    padding: 10px;
+    color:white;
+}
+#Home{
+    background-image: linear-gradient(rgb(110, 124, 187),blue,blueviolet);
+}
+    
+
+/* About */
+#watchImg2{
+    height: 450px;
+    margin-left: 770px;
+    margin-top: 50px;
+    color:white;
+}
+.watchHeading2{
+    width: 500px;
+    position: absolute;
+    top: 670px;
+    left: 130px;
+    padding: 10px;
+    color:black;
+    font-weight:bolder;
+}
+#About{
+    background-image: linear-gradient(rgb(255, 255, 255),purple);
+}
+
+.watchBuy{
+    height: 350px;
+}
+.cardW{
+    margin:60px;
+    border:2px solid rgb(231, 231, 231);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.nam{
+    font-size: 10px;
+}
+.prc{
+    font-size: 10px;
+}
+.center{
+    text-align: center;
+    width: 700px;
+    margin-left: 200px;
+}
+#contDiv{
+    width: 500px;
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+}
+
+.formDiv{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+}
+
+
+/* ************************************************ */
+@media screen and (max-width: 1053px) {
+    /* navbar */
+    .aTag{
+        padding: 9px 20px;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+    .navbar{
+        margin-left: 120px;
+    }
+    .flx{
+        display: flex;
+        justify-content:center;
+        background-image: linear-gradient(blue,black);
+        padding: 16px;
+    }
+    .icn{
+        position: absolute;
+        top: 0;
+        left: 170px;
+    }
+
+    /* Home style */
+#watchImg1{
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 40px;
+    color:white;
+}
+.watchHeading1{
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    padding: 10px;
+    color:white;
+}
+#Home{
+    background-image: linear-gradient(rgb(110, 124, 187),blue,blueviolet);
+}
+    
+
+/* About */
+#watchImg2{
+    height: 350px;
+    margin-left: 670px;
+    margin-top: 50px;
+    color:white;
+}
+.watchHeading2{
+    width: 500px;
+    position: absolute;
+    top: 530px;
+    left: 100px;
+    padding: 10px;
+    color:black;
+    font-weight:bolder;
+}
+#About{
+    background-image: linear-gradient(rgb(255, 255, 255),purple);
+}
+
+.productDiv{
+    text-align: center;
+    width: 700px;
+    margin-left: 150px;
+}
+.center{
+    text-align: center;
+    width: 700px;
+    margin-left: 150px;
+}
+.watchBuy{
+    height: 350px;
+}
+.cardW{
+    margin:40px;
+    border:2px solid rgb(231, 231, 231);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.nam{
+    font-size: 40px;
+}
+.prc{
+    font-size: 40px;
+}
+.center{
+    text-align: center;
+    width: 700px;
+    margin-left: 150px;
+}
+
+#contDiv{
+    width: 500px;
+    text-align: center;
+    color: white;
+    margin-left: 220px;
+}
+
+.formDiv{
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+
+/* footer */
+#ft{
+    font-size: 6px;
+    text-align: center;
+    color: yellow;
+    background-image: linear-gradient(blue,black);
+}
+}
